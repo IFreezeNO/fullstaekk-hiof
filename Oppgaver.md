@@ -35,3 +35,9 @@ Se alle eksamener som er laget
 
 ![Bilde av alle eksamener](https://i.imgur.com/dvZXrwU.png)
 
+# Oppgave 4,5
+
+Ferdig.
+
+# Oppgave 6
+https://trello.com/b/Ffx2lOGx/oblig-1
