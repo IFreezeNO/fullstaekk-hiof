@@ -13,3 +13,25 @@
 ![Bilde av flowchart](https://i.imgur.com/PGeZ0FC.png)
 
 
+# Oppgave 3
+
+Registering
+
+![Bilde av registering](https://i.imgur.com/1D5tf26.png)
+
+Logg inn
+
+![Bilde av logg inn](https://i.imgur.com/briGv1t.png)
+
+Endre eksamen
+
+![Bilde av endre eksamen](https://i.imgur.com/gZH97zJ.png)
+
+Lag eksamen
+
+![Bilde av lag eksamen](https://i.imgur.com/OfJrRA6.png)
+
+Se alle eksamener som er laget 
+
+![Bilde av alle eksamener](https://i.imgur.com/dvZXrwU.png)
+
