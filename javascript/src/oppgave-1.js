@@ -14,7 +14,6 @@ const text =
   // TODO: Gå igjennom alle ordene og oppdater hvis nytt ord er lengre
 
   let Splitwords = text.split(' ');
-  let maxLength = 0;
  
   for(let i = 0; i < Splitwords.length; i++) {
     newArray.push(Splitwords[i])
