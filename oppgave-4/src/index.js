@@ -54,19 +54,14 @@ try {
   (function UseDefaultParameters() {
     
 	// Correct the syntax errors in the function.
-	function hello(who) {
-		if(who == "React") {
-			return 'Hello ' + who + '!';
-		} else {
-			return 'Hello World!';
-		}
+	function hello(who = 'World') {
+		return 'Hello ' + who + '!';
 	}
 
 	// Don't make changes below this line	
 
 	expect(hello()).toBe('Hello World!');
 	expect(hello('React')).toBe('Hello React!');
-	
 	solved++;
 })();
 	
@@ -323,8 +318,6 @@ try {
 		// - Do NOT use Object.assign()
 		// - Do use object spread properties
 		// - Think about the order!
-
-
 
 		delete obj1.b;
 		delete obj3.b;
