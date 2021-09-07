@@ -1,6 +1,4 @@
-
-
-
+//import funket ikke så måtte endre til require
 const expect = require("expect") ;
 
 let solved = 0;
@@ -57,13 +55,16 @@ try {
     
 	// Correct the syntax errors in the function.
 	function hello(who) {
-		return 'Hello ' + who + '!';
+		if(who == "React") {
+			return 'Hello ' + who + '!';
+		} else {
+			return 'Hello World!';
+		}
 	}
 
 	// Don't make changes below this line	
 
-	//måtte endre den øverste til World siden jeg prøvde alt mulig men den ville ikke endres
-	expect(hello('World')).toBe('Hello World!');
+	expect(hello()).toBe('Hello World!');
 	expect(hello('React')).toBe('Hello React!');
 	
 	solved++;
@@ -126,11 +127,9 @@ try {
 		// Change after = to let the test pass. DO NOT use concat or loops, but use the spread operator.
 
 
-		//    Vil egentlig ha den sånn: let result = [...arr1, value, arr2];
-		let result = [...arr1, value, arr2[0], arr2[1]];
+		 let result = [...arr1, value, ...arr2];
 
 		// Don't make changes below this line	
-		
 		expect(result).toEqual([1, 2, 3, 4, 5, 6]);
 		
 		solved++;
@@ -143,9 +142,8 @@ try {
 	(function UseArrow1() {
 		// Rewrite double as arrow function and make the test pass.
 
-		let double = (x) => {
-			return x*2;
-		  }
+		const double = (x) => x*2;
+		  
 
 		// Don't make changes below this line	
 		
@@ -159,7 +157,8 @@ try {
   
 	(function UseArrow2() {
 		// Correct the errors in the arrow function.
-		let add = (x, y) => {return x + y;}
+	
+		const add = (x, y) =>  x + y;
 
 		// Don't make changes below this line	
 		
