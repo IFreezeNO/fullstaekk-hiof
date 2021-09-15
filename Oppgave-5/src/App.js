@@ -37,8 +37,8 @@ const buttonstatus = (state) => {
 
  return(
 <div>
-<MyComponent />
-<Input addInput={setInputFromChild} buttonstatus={buttonstatus} />
+<MyComponent title={"It Works!"} />
+<Input addInput={addInput}  buttonstatus={buttonstatus}/>
 <Wrapper title={"Testing av Props"} />
 <Food foodData={FoodProducts} />
 <Alert addInput={addInput} buttonstatus={buttonstatus} />
