@@ -4,7 +4,6 @@ import './styles.scss';
 import MyComponent from './components/Mycomponent'
 import Food from './components/FoodComponent'
 import Wrapper from './components/WrapperComponent'
-import Input from './components/inputfieldComponent'
 
 import Alert from './components/alertComponent.js'
 
@@ -31,18 +30,26 @@ const buttonstatus = (state) => {
   }
 
   const FoodProducts = [
-    {name: "Sjokolade"},
-    {name: "Iskrem" }
+    {name: "Pizza"},
+    {name: "Hamburger" },
+    {name: "Coke" }
+
   ];
 
  return(
 <div>
 <MyComponent title={"It Works!"} />
-<Input addInput={addInput}  buttonstatus={buttonstatus}/>
-<Wrapper title={"Testing av Props"} />
+
+<Wrapper>
+<section className="flex">
+</section>
+</Wrapper>
+
 <Food foodData={FoodProducts} />
+
 <Alert addInput={addInput} buttonstatus={buttonstatus} />
 {status}
+
 </div>)
 };
 
