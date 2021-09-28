@@ -10,7 +10,6 @@ const Form = ({buttonstatus}) => {
     const titleChange = (event) => {
         setTitleForm(event.currentTarget.value)
         event.preventDefault();
-
     }
 
     
