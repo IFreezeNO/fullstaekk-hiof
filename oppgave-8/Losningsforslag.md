@@ -4,8 +4,10 @@ I denne testen så vil vi teste om komponentene får riktig respons i henholdt t
 
 Det er 3 tester som tester: 
 
-Er H1 visuelt på nettsiden
+-Er H1 visuelt på nettsiden
 
-Kan komponententen ta imot en json string og si hvor stor filen er.
+-Kan komponententen ta imot en json string og si hvor stor filen er.
 
-Kan denne komponenten vise json ut ifra ulike innhold
+-Kan denne komponenten vise json ut ifra ulike innhold
+
+-Er det mulig å hente inn json innholdet fra en API ved bruk av promise.
